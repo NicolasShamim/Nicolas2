@@ -171,4 +171,19 @@ header {
         opacity: 1;
         transform: translateY(0);
     }
+
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-image-block {
+        height: 300px;
+    }
+    
+    .timeline-item {
+        padding-left: 2rem;
+    }
 }
